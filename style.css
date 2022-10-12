@@ -9,6 +9,11 @@ body {
     font-size: 50px;
 }
 
+.intro{
+    height: 1080px;
+    width: 1920px;
+    
+}
 
 .container {
 	text-align: center;
