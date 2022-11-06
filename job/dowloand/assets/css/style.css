@@ -33,7 +33,6 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-    will-change: transform;
 }
 
 .container span{
@@ -54,9 +53,9 @@ body {
 }
 
 .text2{
-	color: #FFF;
+	color: #000;
 	font-size: 30px;
-
+    background: #FFF;
     
 }
 
@@ -140,17 +139,8 @@ body {
 
 .about_item:hover .about_img {/* animation */
     transform:  translate3d(0, -10px, 0);/* animation */
-    will-change: transform;
 }
 
-.about_item_web{
-    align-content: center;
-}
-.about_web{
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-}
  /* animation text 
 .about_item:hover .about_text { 
     opacity: 1;
@@ -164,7 +154,6 @@ body {
 
 .about_img{
     transition: transform .2s linear; /* animation */
-    will-change: transform;
     background: linear-gradient(to bottom, #000, #fff, );
 }
 
